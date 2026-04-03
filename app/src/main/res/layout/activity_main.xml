@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Completo" />
+
+    <EditText
+        android:id="@+id/editIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade (anos)"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o tipo de CNH:"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipos_cnh" />
+
+    <Button
+        android:id="@+id/btGerar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar Relatório CNH"
+        android:layout_marginTop="20dp"
+        android:onClick="gerarRelatorio" />
+</LinearLayout>
