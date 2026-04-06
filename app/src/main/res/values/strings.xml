@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">CNH App</string>
+    <string name="consulta_cnh">Consulta CNH</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="gerar_relatorio_cnh">Gerar Relatório CNH</string>
+    <string name="selecione_o_tipo_de_cnh">Selecione o tipo de CNH:</string>
+    <string name="idade_anos">Idade (anos)</string>
+    <string name="relatorio_cnh">Relatório CNH</string>
+    <string name="compartilhar_relatorio">Compartilhar Relatório</string>
 
     <string-array name="tipos_cnh">
         <item>A</item>

@@ -6,16 +6,26 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:text="@string/relatorio_cnh"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/txtResultado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:layout_marginBottom="20dp" />
+        android:layout_height="114dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btCompartilhar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Compartilhar Relatório"
+        android:text="@string/compartilhar_relatorio"
         android:onClick="compartilhar" />
 </LinearLayout>

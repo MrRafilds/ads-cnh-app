@@ -6,36 +6,50 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consulta_cnh"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
     <EditText
         android:id="@+id/editNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nome Completo" />
+        android:autofillHints=""
+        android:hint="@string/nome_completo"
+        android:minHeight="48dp"/>
 
     <EditText
         android:id="@+id/editIdade"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Idade (anos)"
-        android:inputType="number" />
+        android:autofillHints=""
+        android:hint="@string/idade_anos"
+        android:inputType="number"
+        android:minHeight="48dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selecione o tipo de CNH:"
+        android:text="@string/selecione_o_tipo_de_cnh"
         android:layout_marginTop="10dp"/>
 
     <Spinner
         android:id="@+id/spinnerTipo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/tipos_cnh" />
+        android:entries="@array/tipos_cnh"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btGerar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gerar Relatório CNH"
+        android:text="@string/gerar_relatorio_cnh"
         android:layout_marginTop="20dp"
         android:onClick="gerarRelatorio" />
 </LinearLayout>
