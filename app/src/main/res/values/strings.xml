@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CNH App</string>
+    <string name="app_name">Projeto2_CNH</string>
     <string name="consulta_cnh">Consulta CNH</string>
     <string name="nome_completo">Nome Completo</string>
     <string name="gerar_relatorio_cnh">Gerar Relatório CNH</string>
