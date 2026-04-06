@@ -1,4 +1,6 @@
 <resources>
+    <string name="app_name">CNH App</string>
+
     <string-array name="tipos_cnh">
         <item>A</item>
         <item>B</item>
