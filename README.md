@@ -1,30 +1,36 @@
 # ads-cnh-app
+
+Aplicativo Android desenvolvido em Java para informar sobre a renovação da CNH no Brasil.
+
+# 📱 CNH Info App
+
 Aplicativo Android desenvolvido em Java com o objetivo de informar os prazos de renovação da Carteira Nacional de Habilitação (CNH), de acordo com a idade e categoria do motorista.
 
-👥 Integrantes
+## 👥 Integrantes
 
-Fernando Vizoni Pereira Benevides  
-João Pedro Dias de Faria  
-Rafael Bento Tieghi Sampaio  
+* Fernando Vizoni Pereira Benevides
+* João Pedro Dias de Faria
+* Rafael Bento Tieghi Sampaio
 
-🎓 Informações Acadêmicas
+## 🎓 Informações Acadêmicas
 
-Faculdade: Fatec Botucatu  
-Curso: Análise e Desenvolvimento de Sistemas  
-Semestre: 4º semestre  
+* Faculdade: Fatec Botucatu
+* Curso: Análise e Desenvolvimento de Sistemas
+* Semestre: 4º semestre
 
-🛠 Tecnologias
+## 🛠 Tecnologias
 
-Java  
-Android Studio  
+* Java
+* Android Studio
 
-📌 Funcionalidades
+## 📌 Funcionalidades
 
-Entrada de dados do usuário (nome, idade e tipo de habilitação)  
-Cálculo automático da validade da CNH conforme a idade  
-Identificação da necessidade de exame toxicológico (categorias C, D e E)  
-Exibição de relatório personalizado  
-Compartilhamento das informações  
+* Entrada de dados do usuário (nome, idade e tipo de habilitação)
+* Cálculo automático da validade da CNH conforme a idade
+* Identificação da necessidade de exame toxicológico (categorias C, D e E)
+* Exibição de relatório personalizado
+* Compartilhamento das informações
 
-🚀 Objetivo
+## 🚀 Objetivo
+
 Facilitar o entendimento dos prazos de renovação da CNH e aplicar conceitos de desenvolvimento mobile com Java no Android Studio.
