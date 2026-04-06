@@ -31,6 +31,6 @@ Aplicativo Android desenvolvido em Java com o objetivo de informar os prazos de 
 * Exibição de relatório personalizado
 * Compartilhamento das informações
 
-## 🚀 Objetivo
+## 🚀 Projeto
 
-Facilitar o entendimento dos prazos de renovação da CNH e aplicar conceitos de desenvolvimento mobile com Java no Android Studio.
+Projeto-2 desenvolvido em grupo como parte avaliativa da nota P1.
