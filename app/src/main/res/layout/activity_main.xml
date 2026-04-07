@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:hint="@string/nome_completo"
-        android:minHeight="48dp"/>
+        android:minHeight="48dp"
+        android:inputType="textMultiLine"/>
 
     <EditText
         android:id="@+id/editIdade"
