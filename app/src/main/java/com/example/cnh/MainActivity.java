@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-
     public void gerarRelatorio(View view) {
         EditText nome = findViewById(R.id.editNome);
         EditText idade = findViewById(R.id.editIdade);
@@ -39,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
         // validação
         if (nomeStr.isEmpty() || idadeStr.isEmpty()) {
             Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (Integer.parseInt(idadeStr) < 18) {
+            Toast.makeText(this, "CNH somente para maiores de 18 anos!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (Integer.parseInt(idadeStr) > 122) {
+            Toast.makeText(this, "Coloque uma idade válida!", Toast.LENGTH_SHORT).show();
             return;
         }
 
