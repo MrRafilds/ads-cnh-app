@@ -11,7 +11,7 @@ Aplicativo Android desenvolvido em Java com o objetivo de informar os prazos de 
 * Fernando Vizoni Pereira Benevides
 * João Pedro Dias de Faria
 * Rafael Bento Tieghi Sampaio
-* 
+  
 ## 🤝 Colaboradores
 
 * José Elias Muniz do Espirito Santo
